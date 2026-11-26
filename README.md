@@ -1,21 +1,26 @@
 # CIE_2_Activity_1_Multiple_Linear_Regression
 
-Project Overview
+## Dataset Source
 
-Project Name: Student Performance Prediction
+**Dataset Name:** Crop Yield Prediction Dataset
 
-Algorithm Used: Logistic Regression
+**Source:** Kaggle / GitHub (CropAI)
 
-Problem Type: Binary Classification
+**Dataset Link:** [https://www.kaggle.com/datasets/patelris/crop-yield-prediction-dataset](https://www.kaggle.com/datasets/patelris/crop-yield-prediction-dataset)
 
-Objective: To predict whether a student is likely to Pass or Fail in Mathematics using student background and study-related information.
+**Dataset CSV:** [yield_df.csv](https://raw.githubusercontent.com/kdeeey/cropai/main/data/yield_df.csv)
 
-Dataset Source
+**Dataset Description:** The Crop Yield Prediction Dataset contains agricultural and weather-related information used to analyze and predict crop yield. It includes information about years, average annual rainfall, pesticide usage, average temperature, and crop production.
 
-Dataset Name: UCI Student Performance Dataset – Mathematics (student-mat.csv)
+**Input Features:**
 
-Source: UCI Machine Learning Repository
+- Year
+- Average Rainfall (average_rain_fall_mm_per_year)
+- Pesticides Used (pesticides_tonnes)
+- Average Temperature (avg_temp)
 
-Dataset Link: https://archive.ics.uci.edu/static/public/320/student+performance
+**Target Variable:** `hg/ha_yield` (Crop Yield in hectograms per hectare)
+
+**Objective:** To predict crop yield using Multiple Linear Regression based on agricultural and weather-related factors.
 
 https://github.com/complexiota
